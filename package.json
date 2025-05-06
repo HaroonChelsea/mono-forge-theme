@@ -1,0 +1,28 @@
+{
+  "name": "mono-forge-theme",
+  "version": "1.0.0",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"shopify theme dev --store=https://monoforge.myshopify.com/\" \"npx @tailwindcss/cli -i ./assets/tailwind.styles.css -o ./assets/styles.css --watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaroonChelsea/mono-forge-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaroonChelsea/mono-forge-theme/issues"
+  },
+  "homepage": "https://github.com/HaroonChelsea/mono-forge-theme#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
